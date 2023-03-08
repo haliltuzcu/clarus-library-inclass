@@ -10,7 +10,7 @@ const Home = () => {
   const [query, setQuery] = useState("");
   const [selectType, setSelectType] = useState("all");
   const [myData, setMyData] = useState([]);
-  const APP_KEY = process.env.REACT_APP_apiKey;
+  // const APP_KEY = process.env.REACT_APP_apiKey;
 
   const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&printType=${selectType}&key=AIzaSyDvPcWStU1Tufi6JJ9FFbSS6pslF_9fRHo`;
 
