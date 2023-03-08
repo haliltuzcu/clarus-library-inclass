@@ -43,7 +43,7 @@ export const Header = styled.h1`
   color: transparent;
   transform: translate(0.1em, 0.1em);
   background-image: linear-gradient(305deg, darkblue, yellow, darkblue);
-  -webkit-background-clip: text;
+  
 `;
 
 export const StyledInput = styled.input`

@@ -12,7 +12,7 @@ import About from "../pages/about/About";
 
 const AppRouter = () => {
   const [currentUser, setCurrentUser] = useState(
-    sessionStorage.getItem("user") || false
+    sessionStorage.getItem("user")
   );
   return (
     <BrowserRouter>
@@ -34,7 +34,7 @@ const AppRouter = () => {
 
         <Route element={<PrivateRouter />}>
           <Route path="/about" element={<About />} />
-          <Route path="/detail" element={<Detail />} />
+          <Route path="/detail/:id" element={<Detail />} />
         </Route>
       </Routes>
       <Footer />
