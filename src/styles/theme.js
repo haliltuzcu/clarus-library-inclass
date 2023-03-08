@@ -1,9 +1,9 @@
 export const theme = {
   colors: {
-    navbarBgColor: "white",
-    mainColor: "#86C8BC",
+    navbarBgColor:"white",
+    mainColor: "#a52a2a",
     logoColor: "darkslategray",
-    linkColor: "#8B7E74",
+    linkColor: "	#5f9ea0",
     linkHoverColor: "rgb(5,5,5)",
     headerFormColor: "rgba(15, 63, 42, 0.36)",
   },

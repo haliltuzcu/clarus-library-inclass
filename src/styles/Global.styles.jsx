@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
         padding:0;
         box-sizing:border-box;
         text-transform:uppercase;
-        font-family: 'Shantell Sans', cursive;
+        font-family: "Helvetica Neue",Helvetica;
     }
     body{
         font-size:1.5rem;
